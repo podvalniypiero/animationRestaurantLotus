@@ -51,8 +51,13 @@ button{
     color: #726E6E;
     font-weight: 100;
 }
+.img{
+    margin-bottom: 20px;
+}
 .nav{
     text-transform: uppercase;
+    margin-bottom: 40px;
+    margin-top: 45px;
     font-weight: 500;
     font-size: 18px;
     color: black;
@@ -60,8 +65,7 @@ button{
     display: grid;
     grid-template-columns: 70px auto;
     column-gap: 10px;
-    margin-bottom: 40px;
-    margin-top: 45px;
+    
     
 }
 .container-welcome .img{
@@ -153,4 +157,25 @@ button{
 .hand img{
    position: relative;
    margin-top: 35px; 
+}
+.dog-one{
+    position: relative;
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: 400px auto;
+    column-gap: 10%;
+}
+.dog-two{
+    position: relative;
+    margin-left: 5%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns:  auto 400px;
+    column-gap: 10%;
+    margin-bottom: 10%;
+}
+#food{
+    position: absolute;
+    top: 490%;
+    width: 100%;
 }
