@@ -1,0 +1,25 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+body{
+    background: white;
+}
+header{
+    background:#DCE7AB;
+}
+button{
+    background: #DCE7AB;
+    color: #726E6E;
+    font-weight: 100;
+}
+nav{
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 18px;
+    color: black;
+    
+}

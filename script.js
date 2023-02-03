@@ -1,0 +1,1 @@
+gsap .from( ".photo-img",{duration: 5, delay: 4, y: 100, opacity: 0}) 
