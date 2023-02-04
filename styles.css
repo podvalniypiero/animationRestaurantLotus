@@ -203,13 +203,68 @@ button{
 
 }
 #tea .par{
-    width: 50%;
+    width: 70%;
 }
 #tea .grid{
-    margin-left: 20px;
+    margin-left: 60px;
+    margin-right: 20%;
     display: grid;
-    grid-template-columns: 50% auto;
+    grid-template-columns: 70% auto;
 }
 #tea .grid img {
     opacity: 0.8;
+}
+#tea .grid .heap{
+    margin-left: 20%;
+}
+#tea .grid-plant{
+    margin-top: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: grid;
+    grid-template-columns: 50% auto;
+    opacity: 0.8;
+}
+.gallery-container{
+    background: #DCE7AB;
+    height: 80%;
+    width: 100%;
+}
+.gallery-container .up{
+    position: relative;
+    top: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.gallery-container .slides{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gallery-container button{
+    margin-top: 30px;
+    border: none;
+    background: white;
+    padding: 1%;
+    border-radius: 40px;
+    margin-left: 40%;
+    margin-bottom: 35px;
+}
+.gallery-container button:hover{
+    background:#726E6E;
+    color: white;
+    font-weight: 500;
+    opacity: 0.8;
+}
+#hour-address span{
+    font-weight: 500;
+}
+#hour-address .follow p{
+    font-weight: 500;
+}
+#hour-address ul{
+    list-style-type: none;
 }
