@@ -192,7 +192,24 @@ button{
 .food-animation .vegan{
    
 }
-#food .background{
-    width: 100%;
-    height: 500px;
+
+.tea-animation{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: auto 450px ;
+    column-gap: 10px;
+
+}
+#tea .par{
+    width: 50%;
+}
+#tea .grid{
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+#tea .grid img {
+    opacity: 0.8;
 }
