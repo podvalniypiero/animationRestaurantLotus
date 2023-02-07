@@ -73,7 +73,6 @@ button{
 .container-welcome .img{
     position: absolute;
     width: 100%;
-    height: auto;
 }
 .container-welcome button{
     position: absolute;
@@ -228,7 +227,7 @@ button{
 .gallery-container{
     background: #DCE7AB;
     height: 80%;
-    width: 100%;
+    width: auto;
 }
 .gallery-container .up{
     position: relative;
@@ -326,4 +325,186 @@ button:hover{
     font-size: 16px;
     opacity: 0.9;
     text-align: center;
+}
+
+@media all and (max-width: 850px){
+    *{
+        font-size: 12px ;
+    }
+    #header{
+        height: auto;
+        width: 100%;
+    }
+    #header li{
+        font-size: 12px;
+        
+    }
+    #header .lotus{
+        width: 30px;
+    }
+   
+    #header img{
+        margin-right: 0px;
+    }
+    .nav{
+        
+        margin-bottom: 30px;
+        margin-top: 30px;
+        
+        font-size: 16px;
+        margin-left: 10%;
+        display: grid;
+        grid-template-columns: 70px auto;
+        column-gap: 10px;
+        
+    }
+    #container-we-are {
+        position: absolute;
+        top: 600px;
+    }
+    #container-we-are .left{
+        width: 300px;
+    }
+    #container-we-are .right{
+        left: 20%;
+        width: 650px;
+        opacity: 0.3;
+    }
+    #container-we-are .yoga .left-yoga{
+        width: 400px;
+    }
+    #container-we-are .yoga .right-yoga{
+        width: 200px;
+    }
+    .container-welcome p{
+        top:10%;
+        font-weight: 400;
+    }
+    .container-welcome button{
+        top: 30%;
+        left: 45%;
+    }
+   
+    .hand {
+        margin-left: 10%;
+        display: grid;
+        grid-template-columns: 70px auto;
+        margin-right: 5%;
+        
+     }
+     .hand img{
+        position: relative;
+        margin-top: 30px; 
+        width: 70px;
+     }
+     .dog-one .one{
+        width: 450px;
+        opacity: 0.6;
+        z-index: -1;
+     }
+     .dog-one .two{
+        margin-top: 10%;
+        width: 70%;
+     }
+     .dog-one{
+         position: relative;
+         margin-left: 5%;
+         display: grid;
+         grid-template-columns: 100px auto;
+         column-gap: 15%;
+     }
+     .dog-two .one{
+        width: 450px;
+     }
+     .dog-two .two{
+        width: 200px;
+     }
+     .dog-two{
+         position: relative;
+         margin-left: 5%;
+         margin-top: 5%;
+         display: grid;
+         grid-template-columns:  auto 400px;
+         column-gap: 5%;
+         margin-bottom: 10%;
+     }
+     #food{
+        position: absolute;
+        top: 210%;
+        
+    }
+    .food-animation .vegan{
+        display: none;
+    }
+    .food-animation{
+        display: flex;
+        justify-content: center;
+    }
+    .food-animation img{
+        width: 300px;
+        
+    }
+    .tea-animation .traditional{
+        display: none;
+    }
+    .tea-animation img{
+       
+        margin: 0;
+        width: 1;
+        margin-bottom: 40px;
+    }
+   
+    #tea .par{
+        width: 70%;
+    }
+    #tea .grid{
+        margin-left: 10px;
+        margin-right: 10%;
+        display: grid;
+        grid-template-columns: 50% auto;
+        column-gap: 0;
+    }
+    #tea .grid img {
+        opacity: 0.8;
+    }
+    #tea .grid .heap{
+        display: none;
+    }
+    #tea .grid .pot{
+        width: 350px;
+    }
+    #tea .grid-plant img{
+        width: 300px;
+
+    }
+    #tea .grid-plant{
+        
+        margin-top: 40px;
+        margin-left: 10%;
+        margin-right: 10%;
+        display: grid;
+        grid-template-columns: 50% auto;
+        opacity: 0.8;
+        margin-bottom: 60px;
+    }
+    .gallery-container .up{
+        margin-bottom: 35px;
+    }
+    #hour-address{
+        margin-top: 80px;
+    }
+    .right-map img{
+        width: 450px;
+    }
+    .author-par{
+        font-size: 11px;
+    }
+    #hour-address ul{
+        
+        margin-left: 10px;
+    }
+    #hour-address ul li{
+        margin-right: 60%;
+        cursor: pointer;
+    }
 }
