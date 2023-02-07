@@ -243,24 +243,30 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
+    
+}
+.gallery-container .slides .btn:hover{
+    cursor: pointer;
 }
 .gallery-container button{
     margin-top: 30px;
+    background:#726E6E;
+    color: white;
+    font-weight: 300;
     border: none;
-    background: white;
+    
     padding: 1%;
     border-radius: 40px;
     margin-left: 40%;
     margin-bottom: 35px;
 }
 .gallery-container button:hover{
-    background:#726E6E;
-    color: white;
-    font-weight: 500;
+    background: white;
+    color: #726E6E;
     opacity: 0.8;
 }
 #hour-address{
-    
+    margin-right: 10%;
 }
 #hour-address span{
     font-weight: 500;
@@ -283,7 +289,41 @@ button{
 }
 #hour-address ul li{
     margin-right: 10%;
+    cursor: pointer;
+}
+#hour-address ul li:hover{
+    font-weight: 500;
 }
 #hour-address ul li svg{
     margin-left:10px;
+}
+#hour-address .left-right-container{
+    display: grid;
+    grid-template-columns: auto 650px;
+    column-gap: 5%;
+    
+}
+#hour-address .right-map{
+    display: flex;
+    align-items: center;
+    
+}
+#hour-address .right-map img{
+    cursor: pointer;
+}
+#hour-address .map{
+    cursor: pointer;
+    
+}
+#hour-address .map:hover{
+    font-weight: 500;
+}
+button:hover{
+    cursor: pointer;
+}
+#hour-address .author-par{
+    margin-top: 100px;
+    font-size: 16px;
+    opacity: 0.9;
+    text-align: center;
 }
