@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LOTUS</title>
+    <link rel="shortcut icon" href="img\logo-icon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,30 +14,51 @@
 <body>
     <div id="header">
         <ul>
-            <li>
-                <img class="lotus" src="img\logo-img.png " width="60px">
-            </li>
-            <li>Who we are?</li>
-            <li>Food</li>
-            <li>
-                <img src="img\tea-img.png" width="30px">Tea 
-            </li>
-            <li>Gallery</li>
-            <li>
-                <img src="img\hours-img.png" width="30px">Hours&Address
-            </li>
+            <a href="#">
+                <li>
+                    <img class="lotus" src="img\logo-img.png " width="60px">
+                </li>
+            </a>
+
+            <a href="#aboutArticle">
+                <li>Who we are?</li>
+            </a>
+            
+            <a href="#foodArticle">
+                <li>Food</li>
+            </a>
+            
+            <a href="#teaArticle">
+                <li>
+                    <img src="img\tea-img.png" width="30px">Tea 
+                </li>
+            </a>
+
+            <a href="#galleryArticle">
+                <li>Gallery</li>
+            </a>
+            
+            <a href="#visitArticle">
+                <li>
+                    <img src="img\hours-img.png" width="30px">Hours&Address
+                </li>
+            </a>
+            
         </ul>
     </div>
     <div class="container">
         <div class="container-welcome">
             <img class="img" src="img\cup.jpg">
-            <button>VISIT US <img src="img\lotus.png" width="40px"></button>
+            <a href="#visitArticle"><button>VISIT US <img src="img\lotus.png" width="40px"></button></a>
             <p>LOTUS REST 
             <br>IS FRESH AND HEALTHY MEAL 
             <br>FOR THOSE WHO CARE ABOUT THEMSELVES</p>
         </div>
-        <div id="container-we-are">
+        
+        <div id="container-we-are"><article id="aboutArticle"></article>
+            
            <p class="nav"><img src="img\logo-img.png " width="60px">WHO<br> WE ARE?</p>
+           
            <img class="left" src="img\bowl.jpg" width="400px">
            <img class="right" src="img\back.png" width="899px">
            <p class="par"><span>We are an eco-friendly space for leisure and recreation</span> for people who are fond of a healthy lifestyle. 
@@ -73,7 +95,9 @@
            
         </div>
         <div id="food">
+            <article id="foodArticle"></article>
             <p class="nav"><img src="img\logo-img.png " width="60px">What<br>about food?</p>
+            
             <p class="par">Right, it must be said about food.
                 <br>Our menu mainly consists of fresh and cooked fruits and vegetables. We do not serve meat dishes.
                 French fries are always made from sweet potatoes and vegetables served with tomato sauce. 
@@ -92,7 +116,9 @@
             <img  src="img\traditional-chinese-tea-ceremony.jpg" width="450px" height="350px">
         </div>
             <div id="tea">
+                <article id="teaArticle"></article>
                 <p class="nav"><img src="img\logo-img.png " width="60px">IT'S<br>tea time!</p>
+                
 
                 <div class="grid">
                     <div>
@@ -112,7 +138,9 @@
                 
             </div>
             <div id="gallery">
+                <article id="galleryArticle"></article>
                 <p class="nav"><img src="img\logo-img.png " width="60px">Our<br>gallery</p>
+                
                 <p class="par">Haven't visited us yet? Check out our photo gallery.</p>
 
                 <div class="gallery-container">
@@ -133,7 +161,9 @@
 
             </div>
             <div id="hour-address">
+                <article id="visitArticle"></article>
                 <p class="nav"><img src="img\logo-img.png " width="60px">Hours<br>and address</p>
+               
                 <div class="left-right-container">
                     <div class="left-info">
                         <p class="par">
