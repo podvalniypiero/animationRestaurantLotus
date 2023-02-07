@@ -1,5 +1,6 @@
 //gsap .from( ".photo-img",{duration: 5, delay: 4, y: 100, opacity: 0}) 
 
+//music
 const musicBtn = document.querySelector("#musicBtn");
 
 const musicForBtn = document.getElementById("musicForBtn")
@@ -23,3 +24,11 @@ document.getElementById("musicBtn").onclick = function(){
     }
 
 }
+// gallery slides
+const next = document.querySelector(".nextBtn");
+
+const prev = document.querySelector(".previousBtn");
+console.log(next);
+console.log(prev);
+
+const slides = ["slides\blur.jpg","slides\bar.jpg","slides\beautiful-young-woman-sitting-restaurant-talking-mobile-phone.jpg","slides\bowls.jpg","slides\client.jpg","slides\coffee-make.jpg","slides\coffee.jpg","slides\filter.jpg","slides\green.jpg","slides\greens.jpg","slides\hot-matcha.jpg","slides\interior.jpg","slides\lights.jpg","slides\matcha.jpg","slides\pie.jpg","slides\salad.jpg","slides\soup.jpg","slides\talking.jpg","slides\teapot.jpg","slides\vegetables.jpg","slides\water.jpg"];
