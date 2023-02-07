@@ -259,6 +259,9 @@ button{
     font-weight: 500;
     opacity: 0.8;
 }
+#hour-address{
+    
+}
 #hour-address span{
     font-weight: 500;
 }
@@ -267,4 +270,20 @@ button{
 }
 #hour-address ul{
     list-style-type: none;
+}
+
+#hour-address .follow{
+    font-weight: 500;
+}
+#hour-address ul{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-left: 110px;
+}
+#hour-address ul li{
+    margin-right: 10%;
+}
+#hour-address ul li svg{
+    margin-left:10px;
 }
